@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing Plans</title>
+    <!-- CDN dependencies -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-16 px-4">
+      <div class="max-w-6xl mx-auto">
+        <!-- Header Section -->
+        <div class="text-center mb-16">
+          <h1 class="text-4xl font-bold mb-4">Interactive Pricing Table</h1>
+          <p class="text-gray-600">Choose the plan that's right for you</p>
+        </div>
+        
+        <!-- Pricing Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <!-- Basic Plan -->
+          <div class="flex flex-col p-8 rounded-2xl transition-all duration-300 bg-white/80 shadow-lg hover:shadow-xl hover:-translate-y-1">
+            <div class="flex items-center justify-between mb-4">
+              <h3 class="font-bold text-xl">Basic</h3>
+            </div>
+            
+            <div class="mb-6">
+              <span class="text-4xl font-bold">$9</span>
+              <span class="text-gray-600">/month</span>
+            </div>
+            
+            <p class="text-gray-600 mb-8">Perfect for individuals and small projects</p>
+            
+            <div class="flex-grow">
+              <ul class="space-y-4 mb-8">
+                <li class="flex items-center gap-3">
+                  <i data-lucide="check" class="w-5 h-5 text-green-500"></i>
+                  <span class="text-gray-600">Up to 5 projects</span>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i data-lucide="check" class="w-5 h-5 text-green-500"></i>
+                  <span class="text-gray-600">Basic analytics</span>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i data-lucide="check" class="w-5 h-5 text-green-500"></i>
+                  <span class="text-gray-600">24/7 support</span>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i data-lucide="check" class="w-5 h-5 text-green-500"></i>
+                  <span class="text-gray-600">1GB storage</span>
+                </li>
+              </ul>
+            </div>
+
+            <button class="w-full py-3 px-6 rounded-lg font-semibold transition-all duration-200 bg-gray-100 text-gray-800 hover:bg-gray-200">
+              Get Started
+            </button>
+          </div>
+
+          <!-- Pro Plan (Featured) -->
+          <div class="flex flex-col p-8 rounded-2xl transition-all duration-300 bg-white shadow-xl border-2 border-green-400 hover:-translate-y-2 relative">
+            <div class="absolute -top-3 left-1/2 transform -translate-x-1/2">
+              <span class="px-4 py-1 bg-green-500 text-white text-sm font-semibold rounded-full shadow-lg">
+                Most Popular
+              </span>
+            </div>
+            <div class="flex items-center justify-between mb-4">
+              <h3 class="font-bold text-xl">Pro</h3>
+            </div>
+            
+            <div class="mb-6">
+              <span class="text-4xl font-bold">$29</span>
+              <span class="text-gray-600">/month</span>
+            </div>
+            
+            <p class="text-gray-600 mb-8">Ideal for growing businesses and teams</p>
+            
+            <div class="flex-grow">
+              <ul class="space-y-4 mb-8">
+                <li class="flex items-center gap-3">
+                  <i data-lucide="check" class="w-5 h-5 text-green-500"></i>
+                  <span class="text-gray-600">Unlimited projects</span>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i data-lucide="check" class="w-5 h-5 text-green-500"></i>
+                  <span class="text-gray-600">Advanced analytics</span>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i data-lucide="check" class="w-5 h-5 text-green-500"></i>
+                  <span class="text-gray-600">Priority support</span>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i data-lucide="check" class="w-5 h-5 text-green-500"></i>
+                  <span class="text-gray-600">10GB storage</span>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i data-lucide="check" class="w-5 h-5 text-green-500"></i>
+                  <span class="text-gray-600">Custom domain</span>
+                </li>
+              </ul>
+            </div>
+
+            <button class="w-full py-3 px-6 rounded-lg font-semibold transition-all duration-200 bg-green-500 text-white hover:bg-green-600 hover:shadow-lg hover:shadow-green-200">
+              Get Started
+            </button>
+          </div>
+
+          <!-- Premium Plan -->
+          <div class="flex flex-col p-8 rounded-2xl transition-all duration-300 bg-white/80 shadow-lg hover:shadow-xl hover:-translate-y-1">
+            <div class="flex items-center justify-between mb-4">
+              <h3 class="font-bold text-xl">Premium</h3>
+            </div>
+            
+            <div class="mb-6">
+              <span class="text-4xl font-bold">$99</span>
+              <span class="text-gray-600">/month</span>
+            </div>
+            
+            <p class="text-gray-600 mb-8">For large enterprises and organizations</p>
+            
+            <div class="flex-grow">
+              <ul class="space-y-4 mb-8">
+                <li class="flex items-center gap-3">
+                  <i data-lucide="check" class="w-5 h-5 text-green-500"></i>
+                  <span class="text-gray-600">Everything in Pro</span>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i data-lucide="check" class="w-5 h-5 text-green-500"></i>
+                  <span class="text-gray-600">Enterprise analytics</span>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i data-lucide="check" class="w-5 h-5 text-green-500"></i>
+                  <span class="text-gray-600">Dedicated support</span>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i data-lucide="check" class="w-5 h-5 text-green-500"></i>
+                  <span class="text-gray-600">Unlimited storage</span>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i data-lucide="check" class="w-5 h-5 text-green-500"></i>
+                  <span class="text-gray-600">Advanced security</span>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i data-lucide="check" class="w-5 h-5 text-green-500"></i>
+                  <span class="text-gray-600">Custom integrations</span>
+                </li>
+              </ul>
+            </div>
+
+            <button class="w-full py-3 px-6 rounded-lg font-semibold transition-all duration-200 bg-gray-100 text-gray-800 hover:bg-gray-200">
+              Get Started
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
